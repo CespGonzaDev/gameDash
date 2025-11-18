@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Deals Tracker</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!-- Header con controles -->
+  <header class="header">
+    <div style="display: flex; align-items: center; gap: 16px;">
+      <h1 class="header-title">🎮 Game Deals 🕹️</h1>
+      <button id="themeToggle" class="theme-toggle" title="Cambiar tema">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </div>
+    <div class="header-controls">
+      <input 
+        type="search" 
+        id="searchInput" 
+        class="search-input" 
+        placeholder="Buscar juegos..."
+      >
+      <select id="sortSelect" class="sort-select">
+        <option value="name">Nombre A-Z</option>
+        <option value="priceAsc">Precio: Menor a Mayor</option>
+        <option value="priceDesc">Precio: Mayor a Menor</option>
+        <option value="ratingDesc">Mejor Calificación</option>
+        <option value="discountDesc">Mayor Descuento</option>
+        <option value="mostReviewed">Más Reseñados</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Filtros adicionales -->
+  <aside class="filters-sidebar">
+    <h3>Filtros</h3>
+    
+    <div class="filter-group">
+      <h4>Precio 💲</h4>
+      <label>
+        <input type="checkbox" id="filterFree" class="filter-checkbox">
+         Juegos Gratis
+      </label>
+    </div>
+
+    <div class="filter-group">
+      <h4>Duración ⏱</h4>
+      <label>
+        <input type="checkbox" id="filterUnder2h" class="filter-checkbox">
+         Menos de 2 horas
+      </label>
+      <label>
+        <input type="checkbox" id="filterUnder5h" class="filter-checkbox">
+        Menos de 5 horas
+      </label>
+      <label>
+        <input type="checkbox" id="filterUnder10h" class="filter-checkbox">
+         Menos de 10 horas
+      </label>
+    </div>
+  </aside>
+
+  <!-- Contenedor principal -->
+  <main class="main-container">
+    <div id="resultsCount" class="results-count"></div>
+    <div id="gamesGrid" class="games-grid"></div>
+    <div id="emptyState" class="empty-state" style="display: none;">
+      <p>No se encontraron juegos con esos criterios.</p>
+    </div>
+    <div id="errorState" class="error-state" style="display: none;">
+      <p>⚠️ Error al cargar los datos.</p>
+      <button onclick="location.reload()">Reintentar</button>
+    </div>
+  </main>
+
+  <!-- Modal (oculto por defecto) -->
+  <div id="modal" class="modal" style="display: none;">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button id="closeModal" class="modal-close">&times;</button>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Proyecto educativo - Datos obtenidos mediante web scraping</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+@"
+bin/
+obj/
+.vs/
+Chrome/
+ChromeHeadlessShell/
+*.user
+*.suo
+*.log
+"@ | Out-File -Encoding UTF8 .gitignore
