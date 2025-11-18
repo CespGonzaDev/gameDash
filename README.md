@@ -65,7 +65,7 @@ y se sirve a una página web que muestra los datos de manera limpia y amigable.
 
 ---
 
-# Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 ### Backend
 - **C# (.NET)**  
@@ -82,18 +82,18 @@ y se sirve a una página web que muestra los datos de manera limpia y amigable.
 
 ---
 
-# Instalación
+## Instalación
 
-## 1. Clonar el repositorio
+### 1. Clonar el repositorio
  -Utilizar el comando "git clone "
 
-## 2. Abrir el proyecto
+### 2. Abrir el proyecto
 -Hacer click izquierdo sobre "proyectoParalelismo.csproj" y abrir con VS
 
-# Visualizar solo la pagina
+## Visualizar solo la pagina
 https://cespgonzadev.github.io/gameDash/
 
-# Autores
+## Autores
 * **Andres Zumbado Vargas** - *Desarrollador* - [CespGonzaDev](https://github.com/CespGonzaDev)
 * **Daniel Cespedes** - *Desarrollador* - [CespGonzaDev](https://github.com/CespGonzaDev)
 * **Jean Carlos Segura** - *Desarrollador* - [Jeanksv1](https://github.com/Jeanksv1)
