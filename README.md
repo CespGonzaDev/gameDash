@@ -82,13 +82,22 @@ y se sirve a una página web que muestra los datos de manera limpia y amigable.
 
 ---
 
-# Instalación y Uso
+# Instalación
 
 ## 1. Clonar el repositorio
-```bash
-git clone https://github.com/TU-USUARIO/GameDash.git
-cd backend
-dotnet run
+ -Utilizar el comando "git clone "
+
+## 2. Abrir el proyecto
+-Hacer click izquierdo sobre "proyectoParalelismo.csproj" y abrir con VS
+
+# Visualizar solo la pagina
+https://cespgonzadev.github.io/gameDash/
+
+# Autores
+* **Andres Zumbado Vargas** - *Desarrollador* - [CespGonzaDev](https://github.com/CespGonzaDev)
+* **Daniel Cespedes** - *Desarrollador* - [CespGonzaDev](https://github.com/CespGonzaDev)
+* **Jean Carlos Segura** - *Desarrollador* - [Jeanksv1](https://github.com/Jeanksv1)
+
 
 
 
