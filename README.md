@@ -1,9 +1,15 @@
-<img width="337" height="339" alt="image" src="https://github.com/user-attachments/assets/d7e7e6e0-e6f2-4607-a02a-97cc914e034f" />
 
-# GameDash — Motor de Web Scraping Multicore + Página Web de Ofertas de Videojuegos
+<p align="center">
+<img src="https://github.com/user-attachments/assets/d7e7e6e0-e6f2-4607-a02a-97cc914e034f" width="350"/>
+</p>
 
-GameDash es un proyecto académico desarrollado como parte del III Proyecto de Programación Multicore.  
-El sistema combina **web scraping en paralelo**, **procesamiento multicore**, y una **interfaz web moderna** para mostrar información consolidada sobre videojuegos, como:
+
+<h4 align="center">GameDash — Motor de Web Scraping Multicore + Página Web de Ofertas de Videojuegos</h4>
+<h5 align="center">GameDash es un proyecto académico desarrollado como parte del III Proyecto de Programación Multicore.</h5>
+
+El sistema combina **web scraping en paralelo**, **procesamiento multicore**,
+y una **interfaz web moderna** para mostrarinformación consolidada sobre 
+videojuegos, como:
 
 - Precios en distintas tiendas digitales
 - Descuentos
@@ -13,7 +19,8 @@ El sistema combina **web scraping en paralelo**, **procesamiento multicore**, y 
 - Tipos de ediciones
 - Enlaces directos de compra
 
-Todo esto se recopila mediante **web scraping avanzado** desde múltiples fuentes y se sirve a una página web que muestra los datos de manera limpia y amigable.
+Todo esto se recopila mediante **web scraping avanzado** desde múltiples fuentes
+y se sirve a una página web que muestra los datos de manera limpia y amigable.
 
 ---
 
@@ -50,5 +57,39 @@ Todo esto se recopila mediante **web scraping avanzado** desde múltiples fuente
 
 ---
 
-# 🏗 Arquitectura
+# Vista Pagina
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c67ab944-224c-40cd-af4b-29fe9da11b32" width="350"/>
+</p>
+
+
+---
+
+# Tecnologías Utilizadas
+
+### Backend
+- **C# (.NET)**  
+- **HtmlAgilityPack**  
+- **Puppeteer Sharp**  
+- **Task Parallel Library**  
+- **Newtonsoft JSON**  
+
+### Frontend
+- **HTML5 / CSS3 / JavaScript**  
+- **Bootstrap / Tailwind (si aplica)**  
+- **Fetch API**  
+- **Diseño responsive**
+
+---
+
+# Instalación y Uso
+
+## 1. Clonar el repositorio
+```bash
+git clone https://github.com/TU-USUARIO/GameDash.git
+cd backend
+dotnet run
+
+
+
 
